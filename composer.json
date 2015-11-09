@@ -10,7 +10,8 @@
         "yuanchao/laravel-5-markdown-editor": "dev-master",
         "laravelcollective/html": "5.1.*",
         "maatwebsite/excel": "~2.0",
-        "dingo/api": "1.0.x@dev"
+        "dingo/api": "1.0.x@dev",
+        "laravel/socialite": "^2.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
