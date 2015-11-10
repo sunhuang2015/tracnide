@@ -24,3 +24,11 @@ Route::get('auth/register', 'Auth\AuthController@getRegister');
 Route::post('auth/register', 'Auth\AuthController@postRegister');
 Route::get('auth/github', 'Auth\AuthController@redirectToProvider');
 Route::get('auth/github/callback', 'Auth\AuthController@handleProviderCallback');
+Route::get('home', function () {
+    return "home";
+});
+
+$api = app(Dingo\Api\Routing\Router::class);
+$api->version('v1', function ($api) {
+
+});
